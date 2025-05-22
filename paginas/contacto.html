@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pilchas LALITO - Contacto</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <img src="../images/logo/logo1.png" class="logo" alt="Logo">
+    <div class="nav-toggle" onclick="document.querySelector('.navbar ul').classList.toggle('active')">
+      <span></span><span></span><span></span>
+    </div>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="acerca.html">Acerca de</a></li>
+      <li><a href="tienda.html">Tienda</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <h1>Contacto</h1>
+  <p>¿Querés hacer un pedido o tenés alguna duda? Escribinos directamente o usá el formulario:</p>
+
+  <form action="https://formspree.io/f/movdzvbb" method="POST" class="form-contacto">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+    <button type="submit">Enviar mensaje</button>
+  </form>
+
+  <p>También podés escribirnos por WhatsApp:</p>
+  <a href="https://wa.me/549XX" target="_blank" class="btn-wsp">Contactar por WhatsApp</a>
+
+  <p>Seguinos en nuestras redes:</p>
+  <ul>
+    <li><a href="#">Instagram</a></li>
+    <li><a href="#">Facebook</a></li>
+  </ul>
+    <p>Ó escribinos directamente por WhatsApp:</p>
+    <a href="https://wa.me/549XX" target="_blank" class="btn-wsp">Contactar por WhatsApp</a>
+    <p>También podés seguirnos en nuestras redes:</p>
+    <ul>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Facebook</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pilchas LALITO</p>
+  </footer>
+</body>
+</html>
